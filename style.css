@@ -142,7 +142,7 @@ input#new-task {
 
 .incomplete-item > .task-area,
 .completed-item > .task-area {
-  width: 226px
+  width: 226px;
 }
 
 button.delete img {
@@ -164,13 +164,13 @@ button.delete img:hover {
 /* Edit Task */
 .incomplete-item .task-area,
 .completed-item .task-area {
-  display: none
+  display: none;
 }
 
 .edit-mode ,
 .task-area {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode,
