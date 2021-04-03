@@ -167,13 +167,11 @@ button.delete img:hover {
   display: none;
 }
 
-.edit-mode ,
-.task-area {
+.edit-mode .task-area {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode,
-.label-task {
+.edit-mode .label-task {
   display: none;
 }
