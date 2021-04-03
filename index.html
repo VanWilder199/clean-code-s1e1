@@ -6,47 +6,47 @@
 </head>
 <body>
 <div class="header">
-  <img src="./eisenhower-matrix.jpg">
+  <img class="header-img" src="./eisenhower-matrix.jpg">
   <a class="more-info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
 </div>
 <div class="main-wrapper">
   <p id="adding-element-to-list">
-    <label for="new-task-area">Add Item</label>
+    <label id="new-task-label" for="new-task-area">Add Item</label>
   <div class="task-row-wrapper">
-  <input id="new-task-area" class="task" type="text">
+  <input id="new-task-area" class="task-area" type="text">
     <button>Add</button>
   </div>
   </p>
-  <h3>Todo</h3>
+  <h3 class="main-title">Todo</h3>
   <ul id="incomplete-tasks">
-    <li>
-      <input type="checkbox">
-      <label class="task">Pay Bills</label>
-      <input type="text" class="task">
+    <li class="incomplete-item">
+      <input class="checkbox" type="checkbox">
+      <label class="label-task">Pay Bills</label>
+      <input type="text" class="task-area">
       <button class="edit">Edit</button>
       <button class="delete">
-       <img src="./remove.svg">
+       <img class="delete-img-btn" src="./remove.svg">
       </button>
     </li>
-    <li class="edit-mode">
-      <input type="checkbox">
-      <label class="task">Go Shopping</label>
-      <input type="text" value="Go Shopping" class="task">
+    <li class="incomplete-item edit-mode">
+      <input class="checkbox" type="checkbox">
+      <label class="label-task">Go Shopping</label>
+      <input type="text" value="Go Shopping" class="task-area">
       <button class="edit">Save</button>
       <button class="delete">
-        <img src="./remove.svg">
+        <img class="delete-img-btn" src="./remove.svg">
       </button>
     </li>
   </ul>
   <h3>Completed</h3>
   <ul id="completed-tasks">
-    <li>
-      <input type="checkbox" checked>
-      <label class="task">See the Doctor</label>
-      <input type="text" class="task">
+    <li class="completed-item">
+      <input class="checkbox" type="checkbox" checked>
+      <label class="label-task">See the Doctor</label>
+      <input type="text" class="task-area">
       <button class="edit">Edit</button>
       <button class="delete">
-        <img src="./remove.svg">
+        <img class="delete-img-btn" src="./remove.svg">
       </button>
     </li>
   </ul>
